@@ -1,3 +1,6 @@
+(require 'bookmark)
+(require 'ido)
+
 (defun ido-bookmark-jump ()
   "Uses ido to search for the bookmark"
   (interactive)
